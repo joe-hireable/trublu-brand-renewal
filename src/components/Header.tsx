@@ -7,7 +7,7 @@ const Header = () => {
     <header className="relative z-50">
       {/* Top bar */}
       <div className="bg-primary text-primary-foreground py-2 px-4">
-        <div className="container mx-auto flex justify-between items-center text-sm">
+        <div className="container mx-auto flex justify-between items-center text-sm max-w-[80%]">
           <div className="flex items-center gap-4">
             <span className="flex items-center gap-1">
               <span>⭐</span>
@@ -29,7 +29,7 @@ const Header = () => {
 
       {/* Main navigation */}
       <nav className="bg-card border-b shadow-soft">
-        <div className="container mx-auto px-4 py-4">
+        <div className="container mx-auto px-4 py-4 max-w-[80%]">
           <div className="flex items-center justify-between">
             {/* Logo */}
             <div className="flex items-center gap-3">
