@@ -54,7 +54,7 @@ const HeroSection = () => {
 
           {/* Visual element */}
           <div className="relative animate-scale-in">
-            <Card className="p-8 shadow-brand bg-gradient-to-br from-card to-card/50 backdrop-blur-sm border-primary/10">
+            <Card className="p-8 shadow-brand bg-gradient-to-br from-card to-card/50 backdrop-blur-sm border-primary/10 max-w-[40%]">
               <div className="space-y-6">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 rounded-full brand-gradient flex items-center justify-center">
