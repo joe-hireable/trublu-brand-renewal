@@ -93,7 +93,7 @@ const ServicesSection = () => {
         </div>
 
         {/* Reminder section */}
-        <div className="mt-16 p-8 rounded-2xl brand-gradient-subtle border border-primary/20 animate-fade-in-up">
+        <div className="mt-16 p-8 rounded-2xl brand-gradient-subtle border border-primary/20 animate-fade-in-up max-w-[80%] mx-auto">
           <div className="text-center space-y-4">
             <h3 className="text-xl font-semibold">Never Miss a Rate Change</h3>
             <p className="text-muted-foreground max-w-2xl mx-auto">
