@@ -52,17 +52,42 @@ const HeroSection = () => {
             </div>
           </div>
 
-          {/* Hero image */}
+          {/* Visual element */}
           <div className="relative animate-scale-in">
-            <div className="relative">
-              <img 
-                src="/lovable-uploads/0ae6e3b5-402a-42c0-93a8-0cc8ae3ce0d8.png"
-                alt="Person reviewing mortgage plans in front of house with solar panels"
-                className="w-full h-auto max-w-lg mx-auto"
-              />
-              {/* Subtle gradient overlay for brand integration */}
-              <div className="absolute inset-0 brand-gradient-subtle opacity-10 rounded-lg" />
-            </div>
+            <Card className="p-8 shadow-brand bg-gradient-to-br from-card to-card/50 backdrop-blur-sm border-primary/10">
+              <div className="space-y-6">
+                <div className="flex items-center gap-3">
+                  <div className="w-12 h-12 rounded-full brand-gradient flex items-center justify-center">
+                    <Shield className="h-6 w-6 text-white" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold">Expert Guidance</h3>
+                    <p className="text-sm text-muted-foreground">Professional mortgage advice</p>
+                  </div>
+                </div>
+                
+                <div className="grid grid-cols-2 gap-4">
+                  <div className="text-center p-4 bg-brand-gradient-subtle rounded-lg">
+                    <div className="text-2xl font-bold text-gradient">90+</div>
+                    <div className="text-sm text-muted-foreground">Lenders</div>
+                  </div>
+                  <div className="text-center p-4 bg-brand-gradient-subtle rounded-lg">
+                    <div className="text-2xl font-bold text-gradient">5★</div>
+                    <div className="text-sm text-muted-foreground">Rating</div>
+                  </div>
+                </div>
+
+                <div className="space-y-3">
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm">Mortgage Approval</span>
+                    <span className="text-sm font-medium text-primary">95%</span>
+                  </div>
+                  <div className="w-full bg-muted rounded-full h-2">
+                    <div className="brand-gradient h-2 rounded-full" style={{ width: '95%' }} />
+                  </div>
+                </div>
+              </div>
+            </Card>
           </div>
         </div>
       </div>
