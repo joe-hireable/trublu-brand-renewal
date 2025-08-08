@@ -1,6 +1,5 @@
-import { Phone, Mail, Menu } from 'lucide-react';
+import { Menu } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import AnimatedHouseLogo from './AnimatedHouseLogo';
 
 const Header = () => {
   return (
@@ -10,14 +9,18 @@ const Header = () => {
         <div className="container mx-auto px-4 py-4 max-w-[80%]">
           <div className="flex items-center justify-between">
             {/* Logo */}
+            {/* Logo */}
             <div className="flex items-center gap-3">
-              <AnimatedHouseLogo size={45} className="animate-float" />
+              <img
+                src="/trublu-icon.svg"
+                alt="Trublu Financial Logo"
+                className="w-11 h-11 logo-icon"
+              />
               <div className="flex flex-col">
                 <span className="text-xl font-bold text-gradient">trublu</span>
                 <span className="text-sm text-muted-foreground -mt-1">financial</span>
               </div>
             </div>
-
             {/* Desktop Navigation */}
             <div className="hidden lg:flex items-center gap-8">
               <a href="#home" className="text-foreground hover:text-primary transition-colors font-medium">Home</a>

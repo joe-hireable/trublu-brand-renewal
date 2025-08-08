@@ -40,7 +40,7 @@ const ServicesSection = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-3 gap-8 max-w-[80%] mx-auto">
           {services.map((service, index) => (
             <Card 
               key={service.title} 
@@ -80,12 +80,12 @@ const ServicesSection = () => {
                   ))}
                 </div>
                 
-                <Button 
-                  variant="ghost" 
-                  className="w-full justify-between group-hover:bg-primary/5 p-0 h-auto py-3"
+                <Button
+                  variant="outline"
+                  className="secondary-button w-full justify-between group"
                 >
-                  Learn More
-                  <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  <span className="text-gradient">Learn More</span>
+                  <ArrowRight className="h-4 w-4 transition-all group-hover:translate-x-1 text-muted-foreground group-hover:text-gradient" />
                 </Button>
               </CardContent>
             </Card>

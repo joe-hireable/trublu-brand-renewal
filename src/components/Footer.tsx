@@ -1,5 +1,4 @@
 import { Phone, Mail, MapPin } from 'lucide-react';
-import AnimatedHouseLogo from './AnimatedHouseLogo';
 
 const Footer = () => {
   return (
@@ -9,7 +8,6 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <AnimatedHouseLogo size={40} />
               <div className="flex flex-col">
                 <span className="text-xl font-bold text-white">trublu</span>
                 <span className="text-sm text-primary-foreground/80 -mt-1">financial</span>
