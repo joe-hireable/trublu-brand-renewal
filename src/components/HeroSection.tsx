@@ -15,8 +15,8 @@ const HeroSection = () => {
           <div className="space-y-8 animate-fade-in-up">
             <div className="space-y-6">
               <h1 className="hero-text">
-                Mortgage advice with a{' '}
-                <span className="text-gradient">modern approach</span>
+                Mortgage protection,{' '}
+                <span className="text-gradient">without the stress.</span>
               </h1>
               <p className="section-text max-w-xl">
                 We provide tailored mortgage solutions with access to over 90 lenders. 
